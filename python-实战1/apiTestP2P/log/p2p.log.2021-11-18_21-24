@@ -1,0 +1,30 @@
+2021-11-18 21:20:56,116 INFO [root] [__init__.py(<module>:5)] - info
+2021-11-18 21:20:56,118 ERROR [root] [__init__.py(<module>:6)] - error
+2021-11-18 21:24:23,027 INFO [root] [__init__.py(<module>:5)] - info
+2021-11-18 21:24:23,027 ERROR [root] [__init__.py(<module>:6)] - error
+2021-11-18 21:24:23,566 INFO [root] [login.py(test04_get_img_code_random_char:59)] - eiljacdm
+2021-11-18 21:24:23,694 INFO [root] [login.py(test05_get_sms_code_success:79)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:23,763 INFO [root] [login.py(test06_get_sms_code_wrong_img_code:98)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2021-11-18 21:24:23,973 INFO [root] [login.py(test07_get_sms_code_img_code_is_null:116)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2021-11-18 21:24:24,040 INFO [root] [login.py(test08_get_sms_code_phone_is_null:134)] - get sms code response = {'status': 100}
+2021-11-18 21:24:24,089 INFO [root] [login.py(test09_get_sms_code_no_img_Verify:146)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2021-11-18 21:24:24,164 INFO [root] [login.py(test10_register_success_param_must:162)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:24,210 INFO [root] [login.py(test10_register_success_param_must:168)] - register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-11-18 21:24:24,280 INFO [root] [login.py(test11_register_success_param_all:184)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:24,327 INFO [root] [login.py(test11_register_success_param_all:189)] - register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-11-18 21:24:24,391 INFO [root] [login.py(test12_register_phone_is_exist:205)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:24,406 INFO [root] [login.py(test12_register_phone_is_exist:211)] - register response = {'status': 100, 'description': '手机已存在!'}
+2021-11-18 21:24:24,498 INFO [root] [login.py(test13_register_password_is_null:227)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:24,539 INFO [root] [login.py(test13_register_password_is_null:233)] - register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-11-18 21:24:24,639 INFO [root] [login.py(test14_register_img_code_is_wrong:249)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:24,703 INFO [root] [login.py(test14_register_img_code_is_wrong:255)] - register response = {'status': 100, 'description': '验证码错误!'}
+2021-11-18 21:24:25,961 INFO [root] [login.py(test15_register_sms_code_is_wrong:271)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:25,980 INFO [root] [login.py(test15_register_sms_code_is_wrong:277)] - register response = {'status': 100, 'description': '验证码错误'}
+2021-11-18 21:24:26,273 INFO [root] [login.py(test16_register_no_agree_protocol:293)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2021-11-18 21:24:26,320 INFO [root] [login.py(test16_register_no_agree_protocol:299)] - register response = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2021-11-18 21:24:26,638 INFO [root] [login.py(test18_login_phone_not_exist:317)] - login response = {'status': 100, 'description': '用户不存在'}
+2021-11-18 21:24:26,705 INFO [root] [login.py(test19_login_pwd_is_null:325)] - login response = {'status': 100, 'description': '密码不能为空'}
+2021-11-18 21:24:26,747 INFO [root] [login.py(test20_login_wrong_pwd:334)] - login response = {'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2021-11-18 21:24:26,786 INFO [root] [login.py(test20_login_wrong_pwd:339)] - login response = {'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2021-11-18 21:24:26,811 INFO [root] [login.py(test20_login_wrong_pwd:344)] - login response = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-11-18 21:24:26,832 INFO [root] [login.py(test20_login_wrong_pwd:349)] - login response = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
